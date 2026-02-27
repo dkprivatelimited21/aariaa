@@ -1,0 +1,5 @@
+- name: Upload APK
+  uses: actions/upload-artifact@v3  # Ensure it's v3 here
+  with:
+    name: my-apk
+    path: app/build/outputs/apk/release/app-release.apk  # Adjust this path as necessary
